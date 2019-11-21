@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Telepeaje ZenkaTAG</title>
+        <title>Panel de Control Telepeaje</title>
 <!--
 Newline Template
 http://www.templatemo.com/tm-503-newline
@@ -45,36 +45,42 @@ http://www.templatemo.com/tm-503-newline
             <nav>
               <span class="cd-marker item-1"></span>
               <ul>
-                <li class="selected"><a href="#0"><div class="image-icon"><img src="img/home-icon.png"></div><h6>Inicio</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/about-icon.png"></div><h6>Acerca de</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/featured-icon.png"></div><h6>Destacado</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/projects-icon.png"></div><h6>Proyectos</h6></a></li>
-                <li><a href="#0"><div class="image-icon"><img src="img/contact-icon.png"></div><h6>Contáctanos</h6></a></li>
+                <li class="selected"><a href="#0"><div class="image-icon"><img src="img/about-icon.png"></div><h6>Usuarios</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/tag-icon.png"></div><h6>TAGS</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/factura-icon.png"></div><h6>RFC</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/recibo-icon.png"></div><h6>Facturas</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/deuda-icon.png"></div><h6>Dedudores</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/bank-icon.png"></div><h6>Bancos</h6></a></li>
+                <li><a href="#0"><div class="image-icon"><img src="img/accion-icon.png"></div><h6>Accionistas</h6></a></li>
+                
               </ul>
             </nav> 
           </div> <!-- .cd-slider-nav -->
 
           <ul class="cd-hero-slider">
 
-            <li class="selected">
+             <li>
               <div class="heading">
-                <h1>TELEPEAJE ZenkaTAG</h1>
-                <span>¡Adquiere tu TAG pase con nosotros!</span>
+                <h1>Panel de Control de Usuarios</h1>
+                <span>Se muestra el cotejo actualizado de clientes.</span> 
               </div>
-              <div class="cd-full-width first-slide">
-                <div class="container">
+              <div class="cd-half-width fourth-slide">
+                
                   <div class="row">
                     <div class="col-md-12">
-                      <div class="content first-content">
-                        <h4>¿Qué ofrece ZenkaTAG?</h4>
-                        <p>No más filas gigantescas en las Casetas, con tu ZenkaTAG Express, obtendrás grandes beneficios.<br> Disfruta de la comodidad y seguridad que mereces durante tu viaje.</p>
-                        <div class="primary-button">
-                          <a href="#">Ver más</a>
+                      <div class="content fourth-content">
+                        <div class="row">
+                          <div align="center">
+                            <button type="button" name="load_data" id="load_data" class="btn btn-info">Mostrar Tabla</button>
+                             </div>
+                            <br />
+                                <div id="usuarios_table">
+                         </div>
                         </div>
                       </div>
                     </div>
                   </div>                  
-                </div>
+               
               </div>
             </li>
 
